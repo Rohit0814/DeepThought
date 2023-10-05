@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,500;0,600;1,800&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Deep thought</title>
+  </head>
+  <body>
+    <div class="dt-top">
+      <div class="dt-leftTop">
+        <img src="https://deepthought.education/assets/images/logo/logo.svg" />
+      </div>
+      <div class="dt-rightTop">
+        <ul>
+          <li><i class="fa-solid fa-house-chimney"></i></li>
+          <li><i class="fa-solid fa-screwdriver-wrench"></i></li>
+          <li><i class="fa-solid fa-bell"></i></li>
+        </ul>
+        <div class="dt-rightprofile">
+          <ul>
+            <li><img src="./images/img1.png" alt="Profile pic" /></li>
+            <li><i class="fa-solid fa-ellipsis-vertical"></i></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="board-main">
+      <div class="journey-board">
+        <div class="journey-board-black" onclick="slidBoard()"></div>
+        <div class="journey-board-body">
+          <p class="content">1</p>
+          <p class="list-element"></p>
+        </div>
+      </div>
+
+      <div class="Project-manager">
+        <section class="project-title">
+          <div>
+            <h1>Technical Project Management</h1>
+          </div>
+          <div>
+            <button>Submit task</button>
+          </div>
+        </section>
+        <section>
+          <div class="project-explore">
+            <h1>Explore the world of management</h1>
+            <p>
+              As a project manager, you play an important reole in leading a
+              project through initiation, planning, execution, monitoring,
+              controlling and completion. How? Do you want to manage each and
+              every step of your life?
+            </p>
+          </div>
+        </section>
+        <section class="project-main">
+          <div class="tech-project">
+            <div class="tech-project-heading">
+              <div class="tech-project-title">
+                <h1>Technical Project Management</h1>
+              </div>
+              <div>
+                <p class="info">i</p>
+              </div>
+            </div>
+
+            <div class="project-desc">
+              <p class="desc-bold">Description:</p>
+              <p class="desc-body">
+                Story of Alignment Scope of Agility Specific Accountable
+                Staggering Approach
+              </p>
+            </div>
+
+            <div class="project-vedio">
+              <iframe
+                src="https://www.youtube.com/embed/_Evhs1c693Q"
+                title="The DT Impact"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+          <div class="Threadbuild">
+            <div class="thread-project">
+              <div class="thread-heading">
+                <div class="thread-title">
+                  <h1>Threadbuild</h1>
+                </div>
+                <div>
+                  <p class="info">i</p>
+                </div>
+              </div>
+
+              <div class="thread-desc">
+                <p class="desc-bold">Description:</p>
+                <p class="desc-body">
+                  Watch the video and threadbuild, and jot out key threads while
+                  watching the video
+                </p>
+              </div>
+
+              <div class="threadA" onclick="ThreadFold()">
+                <div class="arrow-thread">
+                  <i class="fa-solid fa-chevron-up"></i>
+                </div>
+                <div class="thread-title">Thread A</div>
+              </div>
+
+              <div class="sub-thread">
+                <div class="sub-thread1">
+                  <p>Sub thread 1</p>
+                  <div>
+                    <textarea placeholder="Enter Text Here"></textarea>
+                  </div>
+                </div>
+                <div class="interpretation1">
+                  <p>Sub Interpretation 1</p>
+                  <div>
+                    <textarea placeholder="Enter Text Here"></textarea>
+                  </div>
+                </div>
+              </div>
+
+              <div class="thread-option">
+                <div class="thread-hint">
+                  <ul>
+                    <li><i class="fa-solid fa-lightbulb"></i></li>
+                    <li><i class="fa-solid fa-envelope-open-text"></i></li>
+                    <li><i class="fa-solid fa-circle-question"></i></li>
+                    <li><i class="fa-solid fa-fan"></i></li>
+                  </ul>
+                </div>
+
+                <div class="thread-select">
+                  <select>
+                    <option>select Categ</option>
+                  </select>
+                  <select>
+                    <option>select Categ</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="sub-thread-btn">
+                <button><i class="fa-solid fa-plus"></i>Sub-thread</button>
+              </div>
+
+              <div class="thread-summary">
+                <div class="summary-thread">
+                  <p>Summary for Thread A</p>
+                  <div>
+                    <textarea placeholder="Enter Text Here"></textarea>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="project-struct">
+            <div class="struct-heading">
+              <div class="struct-title">
+                <h1>Structure your Pointers</h1>
+              </div>
+              <div>
+                <p class="info">i</p>
+              </div>
+            </div>
+
+            <div class="struct-desc">
+              <p class="desc-bold">Description:</p>
+              <p class="desc-body">
+                Write a 300 - 400 word article from your thread . Publish your
+                understanding and showcase your understanding to the entire
+                world
+              </p>
+            </div>
+
+            <div class="project-struct-title">
+              <p>Title</p>
+              <input type="text" />
+            </div>
+
+            <div class="struct-content">
+              <p>Content</p>
+              <div class="content-menu">
+                <ul>
+                  <li>File</li>
+                  <li>Edit</li>
+                  <li>View</li>
+                  <li>Insert</li>
+                  <li>Format</li>
+                  <li>Tools</li>
+                  <li>Table</li>
+                  <li>Help</li>
+                </ul>
+                <ul>
+                  <li><i class="fa-solid fa-reply"></i></li>
+                  <li><i class="fa-solid fa-share"></i></li>
+                  <li><i class="fa-solid fa-arrows-to-circle"></i></li>
+                  <li>paragraph</li>
+                  <li><i class="fa-solid fa-ellipsis-vertical"></i></li>
+                </ul>
+              </div>
+              <div class="content-area">
+                <textarea></textarea>
+              </div>
+            </div>
+          </div>
+
+          <div class="SA-method">
+            <div class="SA-heading">
+              <div class="SA-title">
+                <h1>4SA Method</h1>
+              </div>
+              <div>
+                <p class="info">i</p>
+              </div>
+            </div>
+
+            <div class="SA-desc">
+              <p class="desc-bold">Description:</p>
+              <p class="desc-body">To Explore more read more</p>
+            </div>
+
+            <div class="AS-body">
+              <div class="As-thread">
+                <div class="AS-intro">
+                  <div class="arrow-thread">
+                    <i class="fa-solid fa-chevron-up"></i>
+                  </div>
+                  <div class="thread-title">Introduction</div>
+                </div>
+                <div class="body-intro">
+                  The 4SA Method , How to bring a idea into progress ?
+                </div>
+                <div class="see-more">See More</div>
+              </div>
+              <br /><br />
+
+              <div class="As-threadA">
+                <div class="AS-body-threadA">
+                  <div class="arrow-thread">
+                    <i class="fa-solid fa-chevron-up"></i>
+                  </div>
+                  <div class="thread-title">Thread A</div>
+                </div>
+
+                <div class="body-intro">
+                  How are you going to develop your stratergy ? Which method are
+                  you going to use to develop a stratergy ? What if the project
+                  is lengthy?
+                </div>
+                <div class="see-more">See More</div>
+              </div>
+              <br /><br />
+
+              <div class="As-Example">
+                <div class="AS-body-Example">
+                  <div class="arrow-thread">
+                    <i class="fa-solid fa-chevron-up"></i>
+                  </div>
+                  <div class="thread-title">Thread A</div>
+                </div>
+                <br /><br />
+
+                <div class="body-intro">
+                  You have a concept , How will you put into progress?
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+
+
+    <div class="Notice-board">
+      <div class="notice-banner">
+        <i class="fa-solid fa-xmark"></i>
+        <P>Notice&nbsp; Board</P>
+      </div>
+    </div>
+
+
+
+    <div class="help-section">
+      <ul>
+        <li><i class="fa-solid fa-question"></i></li>
+        <li><i class="fa-solid fa-handshake-simple"></i></li>
+        <li><i class="fa-regular fa-calendar-days"></i></li>
+      </ul>
+    </div>
+
+    <script>
+      var count = 1;
+      function slidBoard() {
+        // var cont = [
+        //   "Explore the world of management",
+        //   "Technical Project Management",
+        //   "Threadbuild",
+        //   "Structure your pointers",
+        //   "4SA Method",
+        // ];
+
+        count++;
+
+        var xhrRequest = new XMLHttpRequest();
+
+        // xhrRequest.onload = function(){
+        //   // console.log(xhrRequest.response);
+        //   var responseJson= JSON.parse(xhrRequest.response);
+        //   console.log(responseJson.tasks)
+        //   cont[0] = responseJson.tasks[0].task_title;
+        // }
+
+        // xhrRequest.open('get','./assets/data.json',true);
+
+        // xhrRequest.send();
+
+        fetch('./assets/data.json').then((res) => {
+          console.log(res);
+          return res.json();
+        }).then((actres) => {
+          // cont[0]+=actres.tasks[0].task_title;
+
+          show(actres.tasks[0]);
+          console.log(actres.tasks[0]);
+        })
+
+
+        // var text = "<ul><li><h4>" + cont[0] + "</h4></li><ul>";
+        // // console.log(cont);
+
+        // for (var i = 1; i < cont.length; i++) {
+        //   text += "<li>" + cont[i] + "</li>";
+        //   // console.log(cont[i]);
+        // }
+        // text += "</ul></ul>";
+        // document.querySelector(".list-element").innerHTML = text;
+        // console.log(text);
+
+        if (count % 2 == 0) {
+          document.querySelector(".journey-board").style = "width:20%";
+          document.querySelector(".content").style = "display:none";
+          document.querySelector(".list-element").style = "display:block";
+        } else {
+          document.querySelector(".journey-board").style = "width:5vw";
+          document.querySelector(".content").style = "display:block";
+          document.querySelector(".list-element").style = "display:none";
+        }
+      }
+
+
+
+      function show(task){
+          var cont=[];
+          cont[0]=task.task_title;
+          var text = "<ul><li><h4>" + cont[0] + "</h4></li><ul>";
+
+          for (var i = 0; i < task.assets.length; i++) {
+          text += "<li>" + task.assets[i].asset_title + "</li>";
+        }
+        text += "</ul></ul>";
+        document.querySelector(".list-element").innerHTML = text;
+        }
+
+      var thread=1;
+      function ThreadFold(){
+        thread++;
+        if(thread%2==0){
+          document.querySelector(".sub-thread").style="display:none";
+          document.querySelector(".thread-option").style="display:none";
+          document.querySelector(".sub-thread-btn").style="display:none;";
+          document.querySelector(".thread-summary").style="display:none";
+        }
+        else{
+          document.querySelector(".sub-thread").style="display:flex";
+          document.querySelector(".thread-option").style="display:flex";
+          document.querySelector(".sub-thread-btn").style="display:block;";
+          document.querySelector(".thread-summary").style="display:block";
+        }
+      }
+    </script>
+  </body>
+</html>

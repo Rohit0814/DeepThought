@@ -1,0 +1,701 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,500;0,600;1,800&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.dt-top{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    background: #F0F0F0;
+}
+
+.dt-rightTop{
+    display: flex;
+}
+
+.dt-top .dt-rightTop ul{
+    display: flex;
+    float: left;
+    list-style: none;
+}
+
+.dt-rightTop ul li {
+    margin: 0px 10px;
+    background-color: #3683F0;
+    font-size: 12px;
+    color: white;
+    padding: 12px;
+    height: 10px;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+
+.dt-rightprofile ul{
+    display: flex;
+    float: left;
+    list-style: none;
+}
+
+.dt-rightprofile ul li{
+    margin: 0px 3px;
+    padding: 9px;
+    border-radius: 50px;
+    color:#3683F0;
+    font-size: 17px;
+    background: none;
+}
+
+.dt-rightprofile ul li img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    position: relative;
+    top:-12px;
+}
+
+
+.board-main{
+    display: flex;
+}
+
+
+.journey-board{
+    height: 60vh;
+    width: 5vw;
+    box-shadow: 5px 5px 6px #888888;
+    border-radius: 15px;
+    position: sticky;
+    top:0px;
+    transition: all;
+    transition-duration: 500ms;
+}
+
+.journey-board .journey-board-black{
+    background-color: black;
+    width: 100%;
+    border-top-right-radius: 15px;
+    height: 80px;
+    cursor: pointer;
+}
+
+.journey-board .journey-board-body{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.journey-board .journey-board-body .content{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size:36px;
+    line-height: 54px;
+    letter-spacing: 2%;
+    border: 1px solid #0029FF;
+    width: 50px;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 20%;
+    border-radius: 13px;
+}
+
+.journey-board .list-element{
+    text-align: left; 
+    font-size: 20px;
+    margin: 30px 30px;
+}
+
+.journey-board .list-element ul ul{
+    margin: 20px 0px;
+}
+
+.Project-manager{
+    width: 100%;
+    margin: 0px 40px 0px 0px;
+}
+
+.Project-manager .project-title{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 170px;
+}
+
+.Project-manager .project-title h1{
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    color: #0029FF;
+}
+
+.Project-manager .project-title button{
+    padding: 10px;
+    width: 150px;
+    background-color: #0029FF;
+    border-radius: 20px;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.Project-manager .project-explore{
+    margin: 30px 100px;
+    background: #E9ECEF;
+    padding: 25px;
+}
+
+.Project-manager .project-explore h1{
+    font-size: xx-large;
+}
+
+.Project-manager .project-explore p{
+    padding-top: 15px;
+    font-size: large;
+}
+
+.project-main{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 60px;
+    grid-auto-rows: minmax(100px, auto);
+    margin: 30px 120px;
+}
+
+.project-main .tech-project{
+    width: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 17px;
+    justify-self: center;
+    margin-right: 25px;
+}
+
+.project-main .tech-project .tech-project-heading{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 17px 0px;
+    background: black;
+    color: white;
+    border-radius: 15px 15px 0px 0px;
+}
+
+
+.project-main .tech-project .tech-project-heading .tech-project-title{
+    width: 90%;
+    text-align: center;
+}
+
+.project-main .tech-project .tech-project-heading p{
+    color: black;
+    font-size: 20px;
+    font-weight: bolder;
+    background: white;
+    padding: 5px;
+    margin-right: 30px;
+    border-radius: 50px;
+    width: 25px;
+    text-align: center;
+}
+
+.project-main .project-desc{
+    margin: 25px;
+    display: flex;
+}
+.project-main .project-desc .desc-bold{
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.project-main .project-desc .desc-body{
+    padding: 6px;
+    font-size: 17px;
+}
+
+.project-main .project-vedio{
+    margin-bottom: 150px;
+}
+
+.project-main .project-vedio iframe{
+     width: 100%;
+     height: 300px;
+}
+
+.project-main .Threadbuild{
+    width: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 17px;
+    justify-self: center;
+    margin-left: 25px;
+}
+
+.project-main .Threadbuild .thread-heading{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 17px 0px;
+    background: black;
+    color: white;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.project-main .Threadbuild .thread-heading .thread-title{
+    width: 100%;
+    text-align: center;
+}
+
+.project-main .Threadbuild .thread-heading p{
+    color: black;
+    font-size: 20px;
+    font-weight: bolder;
+    background: white;
+    padding: 5px;
+    margin-right: 30px;
+    border-radius: 50px;
+    width: 25px;
+    text-align: center;
+}
+
+.project-main .Threadbuild .thread-desc{
+    border-bottom: 4px solid rgb(184, 184, 184);
+    margin: 25px 0px 0px 0px;
+    padding: 0px 20px 10px 20px;
+    display: flex;
+}
+
+.project-main .thread-desc .desc-bold{
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.project-main .thread-desc .desc-body{
+    padding: 6px;
+    font-size: 17px;
+}
+
+
+.project-main .Threadbuild .threadA{
+    background:rgba(249, 248, 162, 0.374);
+    cursor: pointer;
+    display: flex;
+}
+
+.project-main .Threadbuild .threadA .arrow-thread{
+    padding: 15px 30px;
+}
+
+.project-main .Threadbuild .threadA .thread-title{
+    font-size: 30px;
+    font-weight: bolder;
+    padding: 5px 10px;
+}
+
+.project-main .Threadbuild .sub-thread{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.project-main .Threadbuild  textarea{
+    border: none;
+    width: 90%;
+    padding: 7px 12px 7px 12px;
+    height: 60px;
+    font-size: 19px;
+    border-radius: 20px;
+    resize: none;
+    position: relative;
+    top:4.4px
+}
+
+.project-main .Threadbuild .sub-thread textarea:focus{
+    border: none;
+    outline: none;
+}
+
+.project-main .Threadbuild .sub-thread .sub-thread1{
+    background-color: #e4e4e4;
+    padding: 10px 0px 0px 0px;
+    width: 45%;
+    margin-right: 10px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+.project-main .Threadbuild .sub-thread .sub-thread1 p{
+    padding: 10px 10px 4px 10px;
+    font-size: 22px;
+}
+
+
+.project-main .Threadbuild .sub-thread .interpretation1{
+    background-color: #e4e4e4;
+    padding: 10px 0px 0px 0px;
+    width: 45%;
+    margin-left: 10px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);   
+}
+
+.project-main .Threadbuild .sub-thread .interpretation1 p{
+    padding: 10px 10px 4px 10px;
+    font-size: 22px;
+}
+
+.project-main .Threadbuild .thread-option{
+    display: flex;
+    justify-content: right;
+    margin: 20px 40px;
+}
+
+.project-main .Threadbuild .thread-option ul li{
+    list-style: none;
+    float: left;
+    padding: 0px 10px;
+    font-size: x-large;
+}
+
+.project-main .Threadbuild .thread-select select{
+    font-size: large;
+    padding: 0px 5px;
+    margin: 0px 2px;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+    border-radius: 10px;
+}
+
+.project-main .Threadbuild .sub-thread-btn{
+    margin: 20px 30px 10px 30px;
+}
+
+.project-main .Threadbuild .sub-thread-btn button{
+    padding: 15px 10px;
+    width: 140px;
+    font-size: large;
+    border: none;
+    border-radius: 15px;
+    background: #0029FF;
+    color: white;
+    font-weight: bolder;
+    transition: all;
+    transition-duration: 500ms;
+}
+
+
+.project-main .Threadbuild .thread-summary {
+    background-color: #e4e4e4;
+    padding: 10px 0px 0px 0px;
+    width: auto;
+    margin: 0px 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.project-main .Threadbuild .thread-summary p{
+    padding: 10px 10px 4px 10px;
+    font-size: 22px;
+}
+
+.project-main .Threadbuild .thread-summary textarea{
+    border: none;
+    width: 95.5%;
+    padding: 7px 12px 7px 12px;
+    height: 60px;
+    font-size: 19px;
+    border-radius: 20px;
+    resize: none;
+    position: relative;
+    top:4.4px
+}
+
+.project-main .Threadbuild .thread-summary  textarea:focus{
+    border: none;
+    outline: none;
+}
+
+
+
+
+
+
+
+
+
+
+.project-main .project-struct{
+    width: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 17px;
+    justify-self: center;
+    height: auto;
+    margin-right: 25px;
+}
+
+.project-main .project-struct .struct-heading{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 17px 0px;
+    background: black;
+    color: white;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.project-main .project-struct .struct-heading .struct-title{
+    width: 100%;
+    text-align: center;
+}
+
+.project-main .project-struct .struct-heading .info{
+    color: black;
+    font-size: 20px;
+    font-weight: bolder;
+    background: white;
+    padding: 5px;
+    margin-right: 30px;
+    border-radius: 50px;
+    width: 25px;
+    text-align: center;
+}
+
+.project-main .project-struct .struct-desc{
+    border-bottom: 4px solid rgb(184, 184, 184);
+    margin: 25px 0px 0px 0px;
+    padding: 0px 20px 10px 20px;
+    display: flex;
+    border-bottom: 4px solid rgb(198, 198, 198);
+}
+
+.project-main .project-struct .struct-desc .desc-bold{
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.project-main .project-struct .struct-desc .desc-body{
+    padding: 6px;
+    font-size: 17px;
+}
+
+.project-main .project-struct .project-struct-title{
+    padding: 50px;
+}
+
+.project-main .project-struct .project-struct-title p{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.project-main .project-struct .project-struct-title input{
+    width: 100%;
+    font-size: 25px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+}
+
+.project-main .project-struct .struct-content{
+    margin: 5px 50px;
+}
+
+
+.project-main .project-struct .content-menu{
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: relative;
+    z-index: 1;
+}
+
+
+
+
+.project-main .project-struct .struct-content p{
+    font-size: 25px;
+    margin-bottom: 10px;
+    /* padding: 0px 80px; */
+}
+
+
+ .project-main .project-struct .struct-content .content-menu ul{
+    margin: 0px 20px;
+    display: flex;
+}
+
+.project-main .project-struct .struct-content .content-menu ul li{
+    list-style: none;
+    /* float: left; */
+    margin: 10px 10px;
+}
+
+.project-main .project-struct .struct-content .content-area textarea{
+    width: 88%;
+    resize: none;
+    height: 100px;
+    border: none;
+    outline: none;
+    font-size: 25px;
+    padding: 0px 30px;
+    box-shadow: 10px 5px 5px rgb(235, 231, 231);
+} 
+
+
+
+.project-main .SA-method{
+    width: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 17px;
+    justify-self: center;
+    height: auto;
+    margin-left: 25px;
+}
+
+.project-main .SA-method .SA-heading{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 17px 0px;
+    background: black;
+    color: white;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.project-main .SA-method .SA-heading .SA-title{
+    width: 100%;
+    text-align: center;
+}
+
+.project-main .SA-method .SA-heading .info{
+    color: black;
+    font-size: 20px;
+    font-weight: bolder;
+    background: white;
+    padding: 5px;
+    margin-right: 30px;
+    border-radius: 50px;
+    width: 25px;
+    text-align: center;
+}
+
+
+.project-main .SA-method .SA-desc{
+    border-bottom: 4px solid rgb(184, 184, 184);
+    margin: 25px 0px 0px 0px;
+    padding: 0px 20px 10px 20px;
+    display: flex;
+    border-bottom: 4px solid rgb(198, 198, 198);
+}
+
+.project-main .SA-method .SA-desc .desc-bold{
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.project-main .SA-method .SA-desc .desc-body{
+    padding: 6px;
+    font-size: 17px;
+}
+
+
+
+.project-main .SA-method .AS-body .AS-intro{
+    background:rgba(194, 194, 194, 0.374);
+    margin: 0px 30px;
+    display: flex;
+}
+
+.project-main .SA-method .AS-body .arrow-thread{
+    padding: 15px 30px;
+}
+
+.project-main .SA-method .AS-body .thread-title{
+    font-size: 30px;
+    font-weight: bolder;
+    padding: 5px 10px;
+}
+
+.project-main .SA-method .AS-body .body-intro{
+    margin: 20px 70px;
+    font-size: larger;
+}
+
+.project-main .SA-method .AS-body .see-more{
+    float: right;
+    padding: 0px 60px;
+}
+
+.project-main .SA-method .As-threadA .AS-body-threadA{
+    border: 1px solid rgb(160, 160, 160);
+    margin: 0px 30px;
+    display: flex;
+}
+
+
+.project-main .SA-method .As-Example .AS-body-Example{
+    border: 1px solid rgb(160, 160, 160);
+    width: 70%;
+    float: right;
+    margin: 0px 30px;
+    display: flex;
+}
+
+.project-main .SA-method .As-Example .body-intro{
+    float: right;
+    position: relative;
+    left:20px;
+}
+
+
+
+
+
+.Notice-board{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 500px;
+    width: 100px;
+    position: absolute;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius:30px ;
+    right: 0px;
+    top:100px;
+}
+.Notice-board .notice-banner{
+    width: 50px;
+    height: 100%;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius:30px ;
+    background: black;
+    color: white;
+}
+
+.Notice-board .notice-banner i{
+    padding: 50px 10px 10px 10px;
+    font-size: 40px;
+}
+
+.Notice-board .notice-banner p{
+    padding: 5px 10px 10px 18px;
+    width: 15px;
+    font-size: 30px;
+    word-break:break-all;
+}
+
+
+
+.help-section{
+    position: absolute;
+    right: 20px;
+    bottom: -600px;
+}
+
+.help-section ul li{
+    list-style: none;
+    font-size: 50px;
+    padding: 15px;
+    background-color: #0029FF;
+    border-radius: 50px;
+    text-align: center;
+    color: white;
+    margin: 20px;
+}
